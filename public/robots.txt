@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://petersbarbershop.ca/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow search engines to access CSS and JS
+Allow: /css/
+Allow: /js/
+Allow: /_next/
+
+# Block access to sensitive files
+Disallow: /*.json$
+Disallow: /*.env$ 
